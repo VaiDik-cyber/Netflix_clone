@@ -39,7 +39,7 @@ export class MovieDetailsComponent implements OnInit {
         }
       });
       this.getMovieVideoResult = result;
-      debugger
+      
     })
     
   }

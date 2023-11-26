@@ -9,12 +9,20 @@ import { MovieDetailsComponent } from './pages/movie-details/movie-details.compo
 import {HttpClientModule} from '@angular/common/http'
 import { MovieApiServiceService } from './service/movie-api-service.service';
 import {ReactiveFormsModule} from '@angular/forms';
+import { SignInComponent } from './pages/user_auth/sign-in/sign-in.component';
+import { SignUpComponent } from './pages/user_auth/sign-up/sign-up.component';
+import { ForgotPasswordComponent } from './pages/user_auth/forgot-password/forgot-password.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SearchComponent,
-    MovieDetailsComponent
+    MovieDetailsComponent,
+    SignInComponent,
+    SignUpComponent,
+    ForgotPasswordComponent,
+
   ],
   imports: [
     BrowserModule,

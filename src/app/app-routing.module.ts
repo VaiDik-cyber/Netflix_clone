@@ -3,8 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { SearchComponent } from './pages/search/search.component';
 import { MovieDetailsComponent } from './pages/movie-details/movie-details.component';
+import { SignInComponent } from './pages/user_auth/sign-in/sign-in.component';
 
 const routes: Routes = [
+  // { path: '', component:SignInComponent},
   { path:'', component:HomeComponent },
   { path:'search', component:SearchComponent },
   { path:'movie/:id', component:MovieDetailsComponent },
